@@ -16,9 +16,21 @@ namespace LatestGit.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-            int a = 0;
+
+            int a = 10;
+            int b = 30;
+
+
+            return View(a+b);
+        }
+
+
+        public ActionResult New()
+        {
+
             return View();
         }
+
 
         public ActionResult Contact()
         {
